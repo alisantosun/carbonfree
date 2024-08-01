@@ -169,3 +169,5 @@ with open("./style/footer.txt", "r", encoding="utf-8") as footer:
     st.markdown(footer_html, unsafe_allow_html=True)
 
 script()
+
+

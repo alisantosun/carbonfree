@@ -1,4 +1,5 @@
 from streamlit.components.v1 import html
+import streamlit
 import numpy as np
 from PIL import Image, ImageDraw, ImageFont
 import matplotlib.pyplot as plt
@@ -158,6 +159,7 @@ def chart(model, scaler,sample_df, prediction):
     data3 = io.BytesIO()
     background.save(data3, "PNG")
     return data3
+
 
 
 
